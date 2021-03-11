@@ -6,9 +6,10 @@ public class Master {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		In test = new In();
+		In testIn = new In();
+		Out testOut = new Out();
 		try {
-			test.InWithConsole();
+			testOut.OutWithConsole();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
