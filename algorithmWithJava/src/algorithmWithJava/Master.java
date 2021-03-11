@@ -8,8 +8,9 @@ public class Master {
 		// TODO Auto-generated method stub
 		In testIn = new In();
 		Out testOut = new Out();
+		ConditionStructure testCondition = new ConditionStructure();
 		try {
-			testOut.OutWithConsole();
+			testCondition.StructureSwitchCase();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
